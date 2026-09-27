@@ -1,0 +1,36 @@
+# Swift Package Manager / Xcode generated files
+.build/
+/.swiftpm/xcode/
+/DerivedData/
+xcuserdata/
+*.xcuserstate
+*.dSYM/
+# Keep Package.resolved and shared SwiftPM configuration in version control.
+
+# macOS metadata
+.DS_Store
+
+# Downloaded / exported model assets
+/models/
+*.aimodel
+*.safetensors
+*.gguf
+
+# Local organization plans, execution history, and locks
+/plan.json
+/PLAN.json
+/*-plan.json
+*.journal.json
+.seiri.lock
+
+# Python tooling and logs
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+
+# Local environment settings (keep distributable templates)
+.env
+.env.*
+!.env.example
+!.env.sample
